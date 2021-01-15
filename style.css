@@ -25,9 +25,7 @@
     /* margin-top: 20px; */
 }
 
-.img-div img{
-    /* border-radius: 100%; */
-}
+
 
 .first-col h5{
     margin-left: 15px;
@@ -48,8 +46,50 @@
     border-radius: 10px;
 }
 
-.div-1{
+.second-div{
+    width: 100%;
+    height: 30vh;
+    
+    /* background-color: #1614AD; */
+}
 
+
+    .first-p{
+        font-size: 1.2rem;
+        
+    }
+
+@media screen and (max-width: 1024px){
+   .second-div{
+    height: 10vh;   
+} 
+}
+
+
+
+.div-1,
+.div-3{
+    width: 30%;
+    
+}
+
+.div-1{
+    background-color: #FF487E;
+    border-radius: 15% 0% 0% 15%;
+    color: #fff;
+}
+
+
+
+.div-3{
+    background-color: #FFD5BE;
+    border-radius:  0% 15% 15% 0%;
+}
+
+.div-2{
+    width: 40%;
+    background-color: #FF9776;
+    color: #fff;
 }
 
 .grocery-h5{
@@ -86,4 +126,33 @@
 
 .div-footer{
     color: #1614AD;
+}
+
+.toggle-div{
+    height: 30vh;
+    background-color: #1614AD;
+    border-radius: 30px;
+}
+
+.form-switch .form-check-input{
+    width: 3rem;
+    height: 2rem;
+}
+
+
+@media screen and (max-width: 1280px){
+    .second-div{
+    height: 20vh;   
+} 
+
+
+    .first-p{
+        font-size: 1rem;
+    }
+
+    .toggle-div{
+    height: 20vh;
+    
+}
+
 }
