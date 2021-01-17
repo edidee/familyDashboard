@@ -172,6 +172,11 @@
   transform: rotate(-90deg);
 }
 
+.fishing-img{
+    top: 1rem;
+    left: -2rem;
+}
+
 
 @media screen and (max-width: 1280px){
     .second-div{

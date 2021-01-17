@@ -6,3 +6,12 @@ body{
 .innerDiv{
     background-color: black;
 }
+
+.third-div{
+    color: black;
+}
+
+.grocery-h5,
+.div-footer{
+    color: #DC3545;
+}
