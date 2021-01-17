@@ -174,9 +174,21 @@
 
 .fishing-img{
     top: 1rem;
-    left: -2rem;
+    left: -5rem;
 }
 
+.dot{
+    font-size: 3rem;
+}
+
+.key-div{
+    background-color: #fff;
+    height: auto;
+}
+
+.key-div p{
+    margin-bottom: 0px;
+}
 
 @media screen and (max-width: 1280px){
     .second-div{
